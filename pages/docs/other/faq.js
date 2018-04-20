@@ -113,12 +113,12 @@ We recommend that you run your database on a database hosting service. You can [
 
 We are working on a domain transfer tool to make this process easy. In the meantime you can contact us at [support@zeit.co](mailto:support@zeit.co?subject=Domain%20Transfer) with the domain you would like to transfer.
 
-If you want to move a domain between two ZEIT accounts or teams you could do it running the following commands:
+If you would like to move a domain from one ZEIT account to another, you could do so by running the following commands:
 
-1. Run \`now domain rm domain.com\` inside the current owner
-2. Run \`now domain add domain.com\` inside the desired owner
+1. From the current owner of the domain: \`now domain rm domain.com\`
+2. From the desired owner of the domain: \`now domain add domain.com\`
 
-After this the new owner will be able to use the domain.
+After you have done this, the desired owner will be in possession of the domain and be able to utilize it with ZEIT and Now.
 
 ## Can I Use docker-compose with Now?
 
